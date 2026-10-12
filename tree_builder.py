@@ -117,20 +117,11 @@ if __name__ == "__main__":
 
 # Design Memo
 
-# Recursive insertion works by checking the current employee to see if
-# they are the manager we want. If they are, the new employee is added
-# to the selected side if that spot is open. If not, the method searches
-# the existing branches to find the right manager.
-#
-# One challenge was making sure the program checks whether a spot is
-# already taken and handles managers that do not exist. Recursion can
-# be confusing because the method calls itself with a different node
-# each time. Testing different managers and both sides helped me
-# understand how the tree grows.
-#
-# Trees are useful when information has a clear hierarchy. A company
-# directory is one example because employees report to managers, who
-# may report to other managers. Trees can also organize computer files,
-# website elements, and family relationships. Compared with a simple
-# list, a tree makes these parent-child relationships easier to
-# represent and follow.
+In this assignment, I learned how the trees can be utilized to 
+organize employees and show various reports. The recursive insertion works
+by searching through the tree until it finds the manager you want.
+Then you need to add the new employee to the left or right. A part that was a little 
+challenging was making sure everything was added to the right manager. But overall, I think
+the trees were very helpful especially considering people with their own business.
+It makes everything easy to see how everything and everyone is connected. Trees can be used for 
+organizing computer files! This helped me get a better understanding of how the trees work.
